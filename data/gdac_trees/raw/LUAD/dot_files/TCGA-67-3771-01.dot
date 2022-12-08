@@ -1,0 +1,27 @@
+digraph tree {
+    "root" [label=<<font color='Blue'> root</font><br/><font color='Blue' POINT-SIZE='12'>cp : 1 </font>>, shape=oval, color=Blue];
+    "S1" [label =<TP53 <br/> <font color='Red' POINT-SIZE='12'> cp : 1.0 </font>>, shape=box];
+    "S6" [label =<CDKN2A <br/> <font color='Red' POINT-SIZE='12'> cp : 1.0 </font>>, shape=box];
+    "S5" [label =<EZH2 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.9705 </font>>, shape=box];
+    "S2" [label =<KEAP1 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.9705 </font>>, shape=box];
+    "S8" [label =<SMARCA4 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.875 </font>>, shape=box];
+    "S7" [label =<ARID1A <br/> <font color='Red' POINT-SIZE='12'> cp : 0.5778 </font>>, shape=box];
+    "S4" [label =<CTNNB1 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.5258 </font>>, shape=box];
+    "S3" [label =<CIC <br/> <font color='Red' POINT-SIZE='12'> cp : 0.5258 </font>>, shape=box];
+    "root" -> "S1";
+    "S1" -> "S6";
+    "S6" -> "S5";
+    "S5" -> "S2";
+    "S2" -> "S8";
+    "S8" -> "S7";
+    "S7" -> "S4";
+    "S4" -> "S3";
+
+    node[shape=plaintext]
+    fontsize="10"
+    struct1 [label=
+    <<TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" >
+    <TR><TD ALIGN="LEFT">LogLikelihood:0.00</TD></TR>
+    </TABLE>>];
+
+}

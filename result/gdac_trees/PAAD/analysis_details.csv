@@ -1,0 +1,50 @@
+# Dataset data/gdac_trees/PAAD.json
+# Number of tumors: 150
+# Number of genes: 18
+# Analysis folder result/gdac_trees/PAAD
+# Analysis parameters: 10 chains, 0 mixings, 100000 samples between mixings
+# Analysis time: 35379 seconds
+# ----------Convergence analysis------------ #
+# Best chain has converged (Geweke z score: 0.073)
+# Gelman_Rubin convergence IS achieved (GR score: 1.009)
+# ----------Result analysis------------ # 
+# Star tree log likelihood: -438.1344
+# Star tree log prior: 0.0000
+# Star tree log posterior: -438.1344
+# Best sample log likelihood: -422.9777
+# Best sample log prior: 0.0000
+# Best sample log posterior: -422.9777
+# Best sample epsilon (false positive rate): 0.00220
+# Best sample delta (false negative rate): 0.00220
+# Move type specific statistics:
+,hmerge,hsplit,vmerge,vsplit,swap,spr,gt
+n_proposed(r0-c0),6653,6593,6644,6676,6777,33207,33450
+n_proposed(r0-c1),6676,6611,6730,6721,6820,33173,33269
+n_proposed(r0-c2),6593,6883,6633,6621,6789,33161,33320
+n_proposed(r0-c3),6719,6821,6563,6562,6640,33419,33276
+n_proposed(r0-c4),6607,6545,6622,6720,6723,33483,33300
+n_proposed(r0-c5),6795,6674,6727,6529,6691,33443,33141
+n_proposed(r0-c6),6746,6587,6729,6508,6650,33250,33530
+n_proposed(r0-c7),6647,6572,6682,6678,6778,33443,33200
+n_proposed(r0-c8),6683,6764,6776,6787,6681,33121,33188
+n_proposed(r0-c9),6722,6655,6608,6711,6608,33246,33450
+n_novel(r0-c0),4760,4912,6643,6676,6776,30017,33446
+n_novel(r0-c1),4770,5024,6730,6715,6819,29914,33241
+n_novel(r0-c2),4701,5163,6633,6611,6789,29957,33309
+n_novel(r0-c3),4718,5042,6562,6559,6640,30087,33266
+n_novel(r0-c4),4619,4803,6622,6716,6723,30122,33290
+n_novel(r0-c5),4791,5028,6727,6526,6689,30270,33137
+n_novel(r0-c6),4867,5112,6729,6506,6648,29954,33497
+n_novel(r0-c7),4674,4925,6682,6675,6778,30070,33183
+n_novel(r0-c8),4754,5036,6775,6784,6681,29797,33163
+n_novel(r0-c9),4866,5161,6607,6710,6608,30012,33450
+n_accepted(r0-c0),2802,2760,3096,3127,3326,15744,13112
+n_accepted(r0-c1),2876,2775,3053,3150,3249,15398,13142
+n_accepted(r0-c2),2758,2823,3087,3013,3196,15555,12833
+n_accepted(r0-c3),2818,2802,3003,3015,3209,15512,12878
+n_accepted(r0-c4),2705,2691,3013,3017,3104,15511,12900
+n_accepted(r0-c5),2793,2765,3058,3077,3233,15615,13069
+n_accepted(r0-c6),2728,2724,3009,3007,3196,15530,13217
+n_accepted(r0-c7),2681,2700,3091,3061,3357,15778,12988
+n_accepted(r0-c8),2777,2771,3093,3093,3082,15427,13042
+n_accepted(r0-c9),2863,2818,3024,3064,3092,15329,12851

@@ -1,0 +1,25 @@
+digraph tree {
+    "root" [label=<<font color='Blue'> root</font><br/><font color='Blue' POINT-SIZE='12'>cp : 1 </font>>, shape=oval, color=Blue];
+    "S6" [label =<PTEN <br/> <font color='Red' POINT-SIZE='12'> cp : 1.0 </font>>, shape=box];
+    "S3" [label =<CDKN2A <br/> <font color='Red' POINT-SIZE='12'> cp : 1.0 </font>>, shape=box];
+    "S4" [label =<TP53 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.7931 </font>>, shape=box];
+    "S7" [label =<KMT2D <br/> <font color='Red' POINT-SIZE='12'> cp : 0.6731 </font>>, shape=box];
+    "S2" [label =<DROSHA <br/> <font color='Red' POINT-SIZE='12'> cp : 0.6731 </font>>, shape=box];
+    "S5" [label =<KEAP1 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.6061 </font>>, shape=box];
+    "S1" [label =<CDH10 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.5396 </font>>, shape=box];
+    "root" -> "S6";
+    "S6" -> "S3";
+    "S3" -> "S4";
+    "S4" -> "S7";
+    "S7" -> "S2";
+    "S2" -> "S5";
+    "S5" -> "S1";
+
+    node[shape=plaintext]
+    fontsize="10"
+    struct1 [label=
+    <<TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" >
+    <TR><TD ALIGN="LEFT">LogLikelihood:0.03</TD></TR>
+    </TABLE>>];
+
+}

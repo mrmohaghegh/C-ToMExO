@@ -1,0 +1,35 @@
+digraph tree {
+    "root" [label=<<font color='Blue'> root</font><br/><font color='Blue' POINT-SIZE='12'>cp : 1 </font>>, shape=oval, color=Blue];
+    "S3" [label =<FAT1 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.065 </font>>, shape=box];
+    "S5" [label =<RASA1 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.9118 </font>>, shape=box];
+    "S11" [label =<TP53 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.8333 </font>>, shape=box];
+    "S9" [label =<KMT2D <br/> <font color='Red' POINT-SIZE='12'> cp : 0.7615 </font>>, shape=box];
+    "S8" [label =<CDKN2A <br/> <font color='Red' POINT-SIZE='12'> cp : 0.6822 </font>>, shape=box];
+    "S1" [label =<CUL3 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.641 </font>>, shape=box];
+    "S4" [label =<CDH10 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.5455 </font>>, shape=box];
+    "S6" [label =<HLA-A <br/> <font color='Red' POINT-SIZE='12'> cp : 0.5322 </font>>, shape=box];
+    "S7" [label =<KMT2C <br/> <font color='Red' POINT-SIZE='12'> cp : 0.5322 </font>>, shape=box];
+    "S2" [label =<FBXW7 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.3177 </font>>, shape=box];
+    "S10" [label =<PRKCB <br/> <font color='Red' POINT-SIZE='12'> cp : 0.1718 </font>>, shape=box];
+    "S12" [label =<NF1 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.0793 </font>>, shape=box];
+    "root" -> "S3";
+    "root" -> "S5";
+    "S5" -> "S11";
+    "S11" -> "S9";
+    "S9" -> "S8";
+    "S9" -> "S12";
+    "S8" -> "S1";
+    "S1" -> "S4";
+    "S4" -> "S6";
+    "S6" -> "S7";
+    "S7" -> "S2";
+    "S7" -> "S10";
+
+    node[shape=plaintext]
+    fontsize="10"
+    struct1 [label=
+    <<TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" >
+    <TR><TD ALIGN="LEFT">LogLikelihood:0.00</TD></TR>
+    </TABLE>>];
+
+}

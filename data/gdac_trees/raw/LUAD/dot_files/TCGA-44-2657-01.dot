@@ -1,0 +1,17 @@
+digraph tree {
+    "root" [label=<<font color='Blue'> root</font><br/><font color='Blue' POINT-SIZE='12'>cp : 1 </font>>, shape=oval, color=Blue];
+    "S2" [label =<NF1 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.4948 </font>>, shape=box];
+    "S1" [label =<ARID2 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.3 </font>>, shape=box];
+    "S3" [label =<FLT4 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.2424 </font>>, shape=box];
+    "root" -> "S2";
+    "root" -> "S3";
+    "S2" -> "S1";
+
+    node[shape=plaintext]
+    fontsize="10"
+    struct1 [label=
+    <<TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" >
+    <TR><TD ALIGN="LEFT">LogLikelihood:0.14</TD></TR>
+    </TABLE>>];
+
+}

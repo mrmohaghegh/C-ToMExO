@@ -1,0 +1,50 @@
+# Dataset data/tracerx/LUAD.json
+# Number of tumors: 61
+# Number of genes: 28
+# Analysis folder result/tracerx/LUAD
+# Analysis parameters: 10 chains, 0 mixings, 100000 samples between mixings
+# Analysis time: 20107 seconds
+# ----------Convergence analysis------------ #
+# Best chain has converged (Geweke z score: 0.035)
+# Gelman_Rubin convergence IS achieved (GR score: 1.017)
+# ----------Result analysis------------ # 
+# Star tree log likelihood: -268.5576
+# Star tree log prior: 0.0000
+# Star tree log posterior: -268.5576
+# Best sample log likelihood: -230.2008
+# Best sample log prior: 0.0000
+# Best sample log posterior: -230.2008
+# Best sample epsilon (false positive rate): 0.00176
+# Best sample delta (false negative rate): 0.00176
+# Move type specific statistics:
+,hmerge,hsplit,vmerge,vsplit,swap,spr,gt
+n_proposed(r0-c0),6642,6835,6584,6660,6744,32986,33549
+n_proposed(r0-c1),6647,6781,6642,6726,6680,33364,33160
+n_proposed(r0-c2),6802,6715,6594,6811,6645,33265,33168
+n_proposed(r0-c3),6838,6630,6698,6600,6718,33166,33350
+n_proposed(r0-c4),6608,6746,6657,6683,6604,33177,33525
+n_proposed(r0-c5),6633,6732,6621,6690,6583,33194,33547
+n_proposed(r0-c6),6588,6678,6735,6644,6732,33388,33235
+n_proposed(r0-c7),6740,6623,6774,6758,6641,33203,33261
+n_proposed(r0-c8),6665,6635,6751,6670,6827,33166,33286
+n_proposed(r0-c9),6736,6747,6693,6519,6676,33295,33334
+n_novel(r0-c0),5058,5614,6584,6660,6743,30028,33545
+n_novel(r0-c1),5072,5525,6642,6724,6678,30249,33153
+n_novel(r0-c2),4992,5413,6594,6811,6645,30274,33165
+n_novel(r0-c3),5125,5470,6697,6600,6718,30245,33349
+n_novel(r0-c4),5034,5596,6655,6678,6603,30098,33506
+n_novel(r0-c5),5006,5432,6621,6690,6581,30159,33547
+n_novel(r0-c6),5005,5518,6735,6642,6732,30482,33222
+n_novel(r0-c7),4994,5468,6774,6758,6640,30090,33259
+n_novel(r0-c8),4867,5383,6750,6669,6827,30000,33281
+n_novel(r0-c9),5158,5605,6692,6519,6676,30380,33334
+n_accepted(r0-c0),2964,2901,3558,3608,4799,19702,10789
+n_accepted(r0-c1),2978,2934,3587,3617,4611,19682,10583
+n_accepted(r0-c2),2934,2871,3592,3646,4720,19797,10626
+n_accepted(r0-c3),2918,2868,3592,3630,4861,20052,10992
+n_accepted(r0-c4),2838,2888,3611,3550,4588,19563,10841
+n_accepted(r0-c5),2886,2867,3606,3612,4703,19902,10834
+n_accepted(r0-c6),2844,2871,3679,3642,4846,20365,10582
+n_accepted(r0-c7),2863,2814,3679,3716,4867,20198,10778
+n_accepted(r0-c8),2791,2770,3663,3666,5027,20208,10554
+n_accepted(r0-c9),2938,2933,3530,3517,4700,19587,10846

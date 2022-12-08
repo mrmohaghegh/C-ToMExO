@@ -1,0 +1,17 @@
+digraph tree {
+    "root" [label=<<font color='Blue'> root</font><br/><font color='Blue' POINT-SIZE='12'>cp : 1 </font>>, shape=oval, color=Blue];
+    "S1" [label =<HLA-A <br/> <font color='Red' POINT-SIZE='12'> cp : 0.6667 </font>>, shape=box];
+    "S2" [label =<PTEN <br/> <font color='Red' POINT-SIZE='12'> cp : 0.6466 </font>>, shape=box];
+    "S3" [label =<TP53 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.5231 </font>>, shape=box];
+    "root" -> "S1";
+    "S1" -> "S2";
+    "S2" -> "S3";
+
+    node[shape=plaintext]
+    fontsize="10"
+    struct1 [label=
+    <<TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" >
+    <TR><TD ALIGN="LEFT">LogLikelihood:0.20</TD></TR>
+    </TABLE>>];
+
+}

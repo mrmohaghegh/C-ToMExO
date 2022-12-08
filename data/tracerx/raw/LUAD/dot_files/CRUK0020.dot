@@ -1,0 +1,23 @@
+digraph tree {
+    "root" [label=<<font color='Blue'> root</font><br/><font color='Blue' POINT-SIZE='12'>cp : 1 </font>>, shape=oval, color=Blue];
+    "S1" [label =<KEAP1 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.6493 </font>>, shape=box];
+    "S2" [label =<TP53 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.5346 </font>>, shape=box];
+    "S3" [label =<MGA <br/> <font color='Red' POINT-SIZE='12'> cp : 0.3419 </font>>, shape=box];
+    "S4" [label =<ARID2 <br/> <font color='Red' POINT-SIZE='12'> cp : 0.1962 </font>>, shape=box];
+    "S6" [label =<EGFR <br/> <font color='Red' POINT-SIZE='12'> cp : 0.0393 </font>>, shape=box];
+    "S5" [label =<PIK3CA <br/> <font color='Red' POINT-SIZE='12'> cp : 0.087 </font>>, shape=box];
+    "root" -> "S1";
+    "S1" -> "S2";
+    "S1" -> "S5";
+    "S2" -> "S3";
+    "S3" -> "S4";
+    "S3" -> "S6";
+
+    node[shape=plaintext]
+    fontsize="10"
+    struct1 [label=
+    <<TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" >
+    <TR><TD ALIGN="LEFT">LogLikelihood:0.02</TD></TR>
+    </TABLE>>];
+
+}
