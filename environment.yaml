@@ -66,6 +66,7 @@ dependencies:
   - packaging=23.2=pyhd8ed1ab_0
   - pandas=2.1.2=py310h6e3cc31_0
   - parso=0.8.3=pyhd8ed1ab_0
+  - patsy=0.5.3=pyhd8ed1ab_0
   - pexpect=4.8.0=pyh1a96a4e_2
   - pickleshare=0.7.5=py_1003
   - pillow=10.1.0=py310hfae7ebd_0
@@ -87,9 +88,12 @@ dependencies:
   - pyzmq=25.1.1=py310h7e65269_2
   - readline=8.2=h92ec313_1
   - scipy=1.11.3=py310hd1cfc7d_1
+  - seaborn=0.13.0=hd8ed1ab_0
+  - seaborn-base=0.13.0=pyhd8ed1ab_0
   - setuptools=68.2.2=pyhd8ed1ab_0
   - six=1.16.0=pyh6c4a22f_0
   - stack_data=0.6.2=pyhd8ed1ab_0
+  - statsmodels=0.14.0=py310h50ce23c_2
   - tk=8.6.13=hb31c410_0
   - tornado=6.3.3=py310h2aa6e3c_1
   - traitlets=5.13.0=pyhd8ed1ab_0
