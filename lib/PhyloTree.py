@@ -111,8 +111,8 @@ class PhyloTree():
                     weight.append(node.cp)
                     node_names.append(node.name)
                 else:
-                    np.sum(
-                    weight.append(node.cp - n[child.cp for child in node.children]))
+                    n = np.sum([child.cp for child in node.children])
+                    weight.append(node.cp - n)
                     node_names.append(node.name)
             weight=pd.DataFrame(weight, index=node_names)
             #Normalise
